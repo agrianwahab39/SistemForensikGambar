@@ -1,0 +1,1 @@
+pip install numpy pillow opencv-python scikit-learn scikit-image scipy matplotlib seaborn python-docx exifread streamlit plotly
