@@ -17,11 +17,12 @@ Sistem ini merupakan kumpulan skrip Python untuk melakukan analisis forensik pad
 ## Instalasi
 
 1. Pastikan Python 3.8 atau lebih baru terpasang.
-2. Instal dependensi utama (beberapa paket mungkin sudah terinstal):
+2. Instal seluruh dependensi dari `requirements.txt`:
    ```bash
-   pip install numpy pillow opencv-python scikit-learn scikit-image scipy matplotlib seaborn python-docx exifread streamlit plotly
+   pip install -r requirements.txt
    ```
-   Beberapa modul opsional (misalnya `python-docx`) hanya dibutuhkan jika ingin mengekspor laporan DOCX.
+   Berkas ini penting agar layanan seperti Streamlit Cloud otomatis memasang paket yang diperlukan (misalnya `matplotlib`).
+
 
 ## Penggunaan CLI
 

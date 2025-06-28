@@ -10,6 +10,7 @@ test_summary = {
     'splicing_score': 85
 }
 test_processing_time = "12.34s"
+test_thumbnail = "thumb_test.jpg"
 
 history_file = 'analysis_history.json'
 
@@ -20,7 +21,7 @@ if os.path.exists(history_file):
 
 # Test 1: Save an entry
 print(f"Attempting to save entry for {test_image_name}...")
-save_analysis_to_history(test_image_name, test_summary, test_processing_time)
+save_analysis_to_history(test_image_name, test_summary, test_processing_time, test_thumbnail)
 print("Save operation completed.")
 
 # Verify file creation
@@ -67,7 +68,7 @@ test_summary_2 = {
 test_processing_time_2 = "8.76s"
 
 print(f"Attempting to save second entry for {test_image_name_2}...")
-save_analysis_to_history(test_image_name_2, test_summary_2, test_processing_time_2)
+save_analysis_to_history(test_image_name_2, test_summary_2, test_processing_time_2, test_thumbnail)
 print("Second save operation completed.")
 
 history_data_after_append = load_analysis_history()
