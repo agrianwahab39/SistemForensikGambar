@@ -22,10 +22,6 @@ Sistem ini merupakan kumpulan skrip Python untuk melakukan analisis forensik pad
    pip install -r requirements.txt
    ```
    Berkas ini penting agar layanan seperti Streamlit Cloud otomatis memasang paket yang diperlukan (misalnya `matplotlib`).
-   Jika Anda menjalankan pada lingkungan server tanpa dukungan GUI, gunakan
-   paket `opencv-python-headless` (sudah tercantum dalam daftar) untuk
-   menghindari error seperti `libGL.so.1` yang sering muncul dengan paket
-   `opencv-python` standar.
 
 ## Penggunaan CLI
 
