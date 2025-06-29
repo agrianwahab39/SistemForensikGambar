@@ -1,0 +1,14 @@
+numpy
+pillow
+opencv-python-headless
+scikit-learn
+scikit-image
+scipy
+matplotlib
+seaborn
+python-docx
+exifread
+streamlit
+plotly
+pandas
+PyMuPDF
